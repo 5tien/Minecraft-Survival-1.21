@@ -1,0 +1,4 @@
+namespace: multiworld
+path: test
+environment: NORMAL
+seed: -93756580

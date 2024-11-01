@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-09-30 17:11:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-09-30 17:11:12 +0200"
+    },
+    "done": false
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-10-01 13:05:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-10-01 13:05:30 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:deep_ocean": "2023-05-19 21:25:18 +0000",
+      "minecraft:badlands": "2023-05-19 21:25:14 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

@@ -1,5 +1,5 @@
-[17:50:09] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[17:50:09] [main/INFO]: Loading 61 mods:
+[18:31:53] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
+[18:31:54] [main/INFO]: Loading 61 mods:
 	- carpet 1.4.147+v240613
 	- carpet-extra 1.4.148
 	- carpet-tis-addition 1.63.1
@@ -74,23 +74,23 @@
 	- servux 0.3.7
 	   \-- fabric-permissions-api-v0 0.3.1
 	- threadtweak 0.1.4+mc1.21
-[17:50:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/F:/All%20Minecraft%20Servers/OFFICIAL%20SERVER/Minecraft-Survival-1.21/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:50:12] [main/INFO]: Compatibility level set to JAVA_17
-[17:50:12] [main/INFO]: Compatibility level set to JAVA_21
-[17:50:12] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[17:50:12] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 1 override(s) found
-[17:50:12] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[17:50:12] [main/INFO]: Applying Nashorn fix
-[17:50:13] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:50:13] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[17:50:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:50:14] [main/INFO]: ThreadTweak config initialized
-[17:50:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:50:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[17:50:16] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:50:17] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[17:50:19] [main/INFO]: Vanilla bootstrap took 4305 milliseconds
-[17:50:20] [TISCM Mapping/ERROR]: Fail to load mapping Yarn 1.21+build.9
+[18:31:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/stenb/Documents/Minecraft%20Github/Minecraft-Survival-1.21/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:31:54] [main/INFO]: Compatibility level set to JAVA_17
+[18:31:54] [main/INFO]: Compatibility level set to JAVA_21
+[18:31:54] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[18:31:54] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 1 override(s) found
+[18:31:54] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[18:31:54] [main/INFO]: Applying Nashorn fix
+[18:31:55] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:31:55] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[18:31:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:31:55] [main/INFO]: ThreadTweak config initialized
+[18:31:58] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:31:58] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[18:31:58] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[18:31:59] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18:32:01] [main/INFO]: Vanilla bootstrap took 4411 milliseconds
+[18:32:01] [TISCM Mapping/ERROR]: Fail to load mapping Yarn 1.21+build.9
 carpettisaddition.libs.net.fabricmc.mapping.reader.v2.MappingParseException: Error on line "	m	(Lcom/moj"!
 	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:92) ~[carpet-tis-addition-v1.63.1-mc1.21.1.jar:?]
 	at carpettisaddition.utils.deobfuscator.mapping.TinyMappingV2Reader.readMapping(TinyMappingV2Reader.java:39) ~[carpet-tis-addition-v1.63.1-mc1.21.1.jar:?]
@@ -101,100 +101,386 @@ carpettisaddition.libs.net.fabricmc.mapping.reader.v2.MappingParseException: Err
 Caused by: java.lang.IllegalArgumentException: Wrong number of parts for definition of a METHOD!
 	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:81) ~[carpet-tis-addition-v1.63.1-mc1.21.1.jar:?]
 	... 5 more
-[17:50:20] [main/INFO]: Compression will use Java, encryption will use Java
-[17:50:20] [main/INFO]: Loading Noisium.
-[17:50:20] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[17:50:20] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[17:50:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:50:22] [main/INFO]: Loaded 1290 recipes
-[17:50:22] [main/INFO]: Loaded 1399 advancements
-[17:50:22] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.248 ms
-[17:50:23] [Server thread/INFO]: Starting minecraft server version 1.21
-[17:50:23] [Server thread/INFO]: Loading properties
-[17:50:23] [Server thread/INFO]: Default game type: SURVIVAL
-[17:50:23] [Server thread/INFO]: Generating keypair
-[17:50:23] [Server console handler/ERROR]: Exception handling console input
+[18:32:02] [main/INFO]: Compression will use Java, encryption will use Java
+[18:32:02] [main/INFO]: Loading Noisium.
+[18:32:02] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[18:32:02] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:32:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:32:04] [main/INFO]: Loaded 1290 recipes
+[18:32:04] [main/INFO]: Loaded 1399 advancements
+[18:32:04] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.475 ms
+[18:32:04] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:32:04] [Server thread/INFO]: Loading properties
+[18:32:04] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
 	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
 	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
 	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
 	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
 	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
 	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
-[17:50:23] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[17:50:23] [Server thread/INFO]: Using default channel type
-[17:50:23] [Server thread/WARN]: @Redirect conflict. Skipping carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000, already redirected by mixins.servux.json:MixinServerPlayNetworkHandler from mod servux->@Redirect::servux$removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005
-[17:50:24] [Server thread/INFO]: Preparing level "world"
-[17:50:24] [Server thread/INFO]: [CM] Loaded 12 settings from carpet.conf
-[17:50:24] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[17:50:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:50:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[17:50:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[17:50:26] [Server thread/INFO]: Time elapsed: 989 ms
-[17:50:26] [Server thread/INFO]: Done (2.190s)! For help, type "help"
-[17:50:26] [Server thread/WARN]: Dedicated server took 19.144 seconds to load
-[18:05:22] [User Authenticator #1/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
-[18:05:23] [Server thread/INFO]: FireGhest[/127.0.0.1:61325] logged in with entity id 31 at (-564.7144596583538, 67.875, -1068.2423375635958)
-[18:05:23] [Server thread/INFO]: FireGhest joined the game
-[18:06:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-552, y=66, z=-1093} class_2338{x=-548, y=65, z=-1107}
-[18:09:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-543, y=61, z=-1104} class_2338{x=-542, y=62, z=-1103}
-[18:09:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-543, y=61, z=-1104} class_2338{x=-542, y=62, z=-1103}
-[18:09:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-541, y=62, z=-1102} class_2338{x=-542, y=62, z=-1103}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=62, z=-1096} class_2338{x=-538, y=62, z=-1097}
-[18:13:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-540, y=61, z=-1097} class_2338{x=-539, y=61, z=-1097}
-[18:13:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-540, y=61, z=-1097} class_2338{x=-539, y=61, z=-1097}
-[18:13:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-540, y=61, z=-1097} class_2338{x=-539, y=61, z=-1097}
-[18:13:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-538, y=59, z=-1099} class_2338{x=-537, y=58, z=-1099}
-[18:13:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-538, y=59, z=-1099} class_2338{x=-537, y=58, z=-1099}
-[18:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-540, y=60, z=-1102} class_2338{x=-541, y=60, z=-1102}
-[18:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-539, y=61, z=-1102} class_2338{x=-540, y=61, z=-1103}
-[18:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-539, y=61, z=-1102} class_2338{x=-540, y=61, z=-1103}
-[18:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-539, y=61, z=-1102} class_2338{x=-540, y=61, z=-1103}
-[18:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-539, y=61, z=-1102} class_2338{x=-540, y=61, z=-1103}
-[18:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-543, y=60, z=-1099} class_2338{x=-544, y=60, z=-1100}
-[18:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-544, y=59, z=-1100} class_2338{x=-543, y=59, z=-1100}
-[18:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-544, y=59, z=-1100} class_2338{x=-543, y=59, z=-1100}
-[18:14:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-537, y=60, z=-1107} class_2338{x=-537, y=59, z=-1108}
-[18:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=55, z=-1103} class_2338{x=-537, y=57, z=-1099}
-[18:23:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-533, y=59, z=-1100} class_2338{x=-532, y=58, z=-1102}
-[18:23:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-533, y=59, z=-1100} class_2338{x=-532, y=58, z=-1102}
-[18:23:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-533, y=59, z=-1100} class_2338{x=-532, y=58, z=-1102}
-[18:23:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-533, y=59, z=-1100} class_2338{x=-532, y=58, z=-1102}
-[18:25:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-525, y=63, z=-1101} class_2338{x=-525, y=63, z=-1105}
-[18:25:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-525, y=63, z=-1101} class_2338{x=-525, y=63, z=-1105}
-[18:25:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-525, y=63, z=-1101} class_2338{x=-525, y=63, z=-1105}
-[18:28:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-605, y=64, z=-1040} class_2338{x=-606, y=64, z=-1040}
-[18:28:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-605, y=64, z=-1040} class_2338{x=-606, y=64, z=-1040}
-[18:28:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-604, y=64, z=-1037} class_2338{x=-604, y=65, z=-1036}
-[18:28:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-599, y=65, z=-1037} class_2338{x=-600, y=64, z=-1037}
-[18:29:25] [Server thread/INFO]: FireGhest lost connection: Disconnected
-[18:29:25] [Server thread/INFO]: FireGhest left the game
-[18:29:33] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:29:33] [Server thread/INFO]: Saved the game
-[18:29:35] [Server thread/INFO]: Stopping the server
-[18:29:35] [Server thread/INFO]: Stopping server
-[18:29:35] [Server thread/INFO]: Saving players
-[18:29:35] [Server thread/INFO]: Saving worlds
-[18:29:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:29:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:29:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:29:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:29:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:29:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:29:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:32:04] [Server thread/INFO]: Default game type: SURVIVAL
+[18:32:04] [Server thread/INFO]: Generating keypair
+[18:32:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[18:32:04] [Server thread/INFO]: Using default channel type
+[18:32:04] [Server thread/WARN]: @Redirect conflict. Skipping carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000, already redirected by mixins.servux.json:MixinServerPlayNetworkHandler from mod servux->@Redirect::servux$removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005
+[18:32:04] [Server thread/INFO]: Preparing level "world"
+[18:32:04] [Server thread/INFO]: [CM] Loaded 12 settings from carpet.conf
+[18:32:05] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[18:32:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:32:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:32:06] [Server thread/INFO]: Time elapsed: 538 ms
+[18:32:06] [Server thread/INFO]: Done (1.241s)! For help, type "help"
+[18:32:06] [Server thread/WARN]: Dedicated server took 13.34 seconds to load
+[18:32:10] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[18:32:11] [Server thread/INFO]: StenW[/127.0.0.1:1235] logged in with entity id 31 at (-573.610769016496, 65.0, -1058.5748342420925)
+[18:32:11] [Server thread/INFO]: StenW joined the game
+[18:32:11] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[18:32:27] [User Authenticator #2/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[18:32:28] [Server thread/INFO]: FireGhest[/95.98.151.99:61771] logged in with entity id 325 at (-605.5823391573376, 66.0, -1031.4338113139863)
+[18:32:28] [Server thread/INFO]: FireGhest joined the game
+[18:32:32] [Server thread/INFO]: <StenW> lol
+[18:32:49] [Server thread/INFO]: <FireGhest> yo
+[18:32:50] [Server thread/INFO]: <StenW> ik ga zo ff de mods updated
+[18:32:51] [Server thread/INFO]: <StenW> ik ga zo ff de mods updaten
+[18:32:53] [Server thread/INFO]: <FireGhest> sure
+[18:33:00] [Server thread/INFO]: <StenW> geef me golden carrots
+[18:33:00] [Server thread/INFO]: <FireGhest> dus ik hoef daar niks voor te doen
+[18:33:02] [Server thread/INFO]: <FireGhest> lijp
+[18:33:05] [Server thread/INFO]: <StenW> nee
+[18:33:17] [Server thread/INFO]: <FireGhest> ew
+[18:33:37] [Server thread/INFO]: <FireGhest> yo dude
+[18:33:40] [Server thread/INFO]: <FireGhest> wat als
+[18:33:41] [Server thread/INFO]: <StenW> dat ben ik
+[18:33:45] [Server thread/INFO]: <FireGhest> we proximity mod toevoegen
+[18:33:49] [Server thread/INFO]: <StenW> lol
+[18:33:50] [Server thread/INFO]: <StenW> sure
+[18:34:00] [Server thread/INFO]: <FireGhest> ja
+[18:34:01] [Server thread/INFO]: <FireGhest> prs
+[18:34:52] [Server thread/INFO]: <StenW> wat doen we met dit gat
+[18:34:54] [Server thread/INFO]: <StenW> in het midden
+[18:35:08] [Server thread/INFO]: <FireGhest> maybe een rivier ?
+[18:35:18] [Server thread/INFO]: <FireGhest> want
+[18:35:21] [Server thread/INFO]: <StenW> god
+[18:35:22] [Server thread/INFO]: <StenW> ver
+[18:35:24] [Server thread/INFO]: <FireGhest> dat midden is ook water, van het uit
+[18:35:27] [Server thread/INFO]: <FireGhest> *huis
+[18:35:42] [Server thread/INFO]: <StenW> I guess
+[18:35:48] [Server thread/INFO]: <StenW> misschien moet ik beginnnen met de storage
+[18:35:52] [Server thread/INFO]: <StenW> zodat
+[18:35:56] [Server thread/INFO]: <FireGhest> JA
+[18:35:56] [Server thread/INFO]: <StenW> het huis af is
+[18:36:04] [Server thread/INFO]: <StenW> ok
+[18:36:08] [Server thread/INFO]: <StenW> ik ga dat doen
+[18:36:15] [Server thread/INFO]: <FireGhest> duslike
+[18:36:20] [Server thread/INFO]: <FireGhest> je gaat een gat maken?
+[18:36:27] [Server thread/INFO]: <StenW> gat???
+[18:36:29] [Server thread/INFO]: <FireGhest> ??
+[18:36:35] [Server thread/INFO]: <FireGhest> voor de storage?
+[18:36:38] [Server thread/INFO]: <StenW> ohhh
+[18:36:40] [Server thread/INFO]: <StenW> nee ik bedoel
+[18:36:41] [Server thread/INFO]: <FireGhest> dat was toch ondergronds
+[18:36:43] [Server thread/INFO]: <StenW> het design
+[18:36:45] [Server thread/INFO]: <FireGhest> ohhhh
+[18:36:47] [Server thread/INFO]: <FireGhest> ja
+[18:36:49] [Server thread/INFO]: <FireGhest> zo
+[18:36:51] [Server thread/INFO]: <StenW> ja
+[18:36:55] [Server thread/INFO]: <FireGhest> ok
+[18:36:58] [Server thread/INFO]: <StenW> wacht
+[18:37:00] [Server thread/INFO]: <FireGhest> nee
+[18:37:03] [Server thread/INFO]: <StenW> jawel
+[18:37:07] [Server thread/INFO]: <StenW> anders maken we nog een git
+[18:37:10] [Server thread/INFO]: <StenW> voor test world
+[18:37:16] [Server thread/INFO]: <StenW> om daar designs te maken
+[18:37:17] [Server thread/INFO]: <FireGhest> . . .
+[18:37:20] [Server thread/INFO]: <StenW> : - )
+[18:37:25] [Server thread/INFO]: <FireGhest> wacht
+[18:37:39] [Server thread/INFO]: <StenW> lol
+[18:37:49] [Server thread/INFO]: <FireGhest> thx
+[18:37:51] [Server thread/INFO]: <StenW> mf
+[18:37:55] [Server thread/INFO]: <FireGhest> YO
+[18:37:56] [Server thread/INFO]: <FireGhest> wat als
+[18:38:00] [Server thread/INFO]: <FireGhest> nether portal
+[18:38:03] [Server thread/INFO]: <FireGhest> van chests
+[18:38:04] [Server thread/INFO]: <FireGhest> ender
+[18:38:10] [Server thread/INFO]: <StenW> . . .
+[18:38:15] [Server thread/INFO]: <FireGhest> yupp
+[18:38:16] [Server thread/INFO]: <StenW> goed plan
+[18:38:35] [Server thread/INFO]: <FireGhest> neee
+[18:38:36] [Server thread/INFO]: <FireGhest> kan niet
+[18:38:39] [Server thread/INFO]: <FireGhest> BRO
+[18:38:43] [Server thread/INFO]: <FireGhest> GA SLAPENOFZO
+[18:38:43] [Server thread/INFO]: <StenW> IK FUCKING HAAT
+[18:38:46] [Server thread/INFO]: <StenW> PHANTOMS
+[18:38:56] [Server thread/INFO]: <StenW> we hebben geen bed hieuruuururrr
+[18:39:00] [Server thread/INFO]: <FireGhest> i know
+[18:39:04] [Server thread/INFO]: <FireGhest> je meot helemaal terug
+[18:39:11] [Server thread/INFO]: <StenW> ik ga bedden halen
+[18:39:27] [Server thread/INFO]: <StenW> nee trouwens
+[18:39:32] [Server thread/INFO]: <StenW> ik ga nu de storage designen
+[18:39:34] [Server thread/INFO]: <StenW> doei
+[18:39:35] [Server thread/INFO]: StenW lost connection: Disconnected
+[18:39:35] [Server thread/INFO]: StenW left the game
+[18:46:37] [Server thread/INFO]: FireGhest lost connection: Disconnected
+[18:46:37] [Server thread/INFO]: FireGhest left the game
+[19:36:41] [User Authenticator #3/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[19:36:42] [Server thread/INFO]: FireGhest[/95.98.151.99:54834] logged in with entity id 14935 at (-577.8023904583677, 66.0, -1062.6553640549605)
+[19:36:42] [Server thread/INFO]: FireGhest joined the game
+[19:38:51] [User Authenticator #4/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[19:38:52] [Server thread/INFO]: StenW[/127.0.0.1:1731] logged in with entity id 17859 at (530.317474979139, 134.40306915637123, 103.97943001965335)
+[19:38:52] [Server thread/INFO]: StenW joined the game
+[19:38:53] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[19:42:58] [Server thread/INFO]: FireGhest lost connection: Timed out
+[19:42:58] [Server thread/INFO]: FireGhest left the game
+[19:44:57] [User Authenticator #5/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[19:44:58] [Server thread/INFO]: FireGhest[/95.98.151.99:55080] logged in with entity id 29173 at (-579.4368961781859, 69.0, -1059.8353891109573)
+[19:44:58] [Server thread/INFO]: FireGhest joined the game
+[19:46:19] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@10c83e8d, suppressing error
+net.minecraft.class_148: Exception while updating neighbours
+	at net.minecraft.class_7165.method_41708(class_7165.java:57) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159$class_7161.method_41707(class_7159.java:132) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41702(class_7159.java:78) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41706(class_7159.java:65) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41705(class_7159.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1044) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1474) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzi000$carpet$updateNeighborsMaybe(class_1937.java:1085) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:217) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7708(class_1747.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7712(class_1747.java:76) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1747.method_7884(class_1747.java:46) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.mixinextras$bridge$method_18859$5(class_4093.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.wrapOperation$cbe000$carpet-tis-addition$yeetUpdateSuppressionCrash_implForThreadExecutorTaskExecuting(class_4093.java:570) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassCastException: class net.minecraft.class_3722 cannot be cast to class net.minecraft.class_1263 (net.minecraft.class_3722 and net.minecraft.class_1263 are in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @29ee9faa)
+	at net.minecraft.class_2480.wrapOperation$bof000$carpet-tis-addition$shulkerBoxCCEReintroduced_castIt(class_2480.java:1547) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2480.method_9572(class_2480.java:251) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26176(class_4970.java:1015) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9991(class_2286.java:119) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9773(class_2286.java:70) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9998(class_2286.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9612(class_2312.java:92) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26181(class_4970.java:1113) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java:42) ~[server-intermediary.jar:?]
+	... 33 more
+[19:46:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2846@23759553, suppressing error
+net.minecraft.class_148: Exception while updating neighbours
+	at net.minecraft.class_7165.method_41708(class_7165.java:57) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159$class_7161.method_41707(class_7159.java:132) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41702(class_7159.java:78) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41706(class_7159.java:65) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7159.method_41705(class_7159.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8452(class_3218.java:1044) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_8408(class_3218.java:1474) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.redirect$zzi000$carpet$updateNeighborsMaybe(class_1937.java:1085) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:217) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8650(class_1937.java:286) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14266(class_3225.java:269) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_21717(class_3225.java:235) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3225.method_14263(class_3225.java:210) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12066(class_3244.java:1102) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_12361(class_2846.java:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2846.method_11054(class_2846.java:10) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.mixinextras$bridge$method_18859$5(class_4093.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.wrapOperation$cbe000$carpet-tis-addition$yeetUpdateSuppressionCrash_implForThreadExecutorTaskExecuting(class_4093.java:570) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassCastException: class net.minecraft.class_3722 cannot be cast to class net.minecraft.class_1263 (net.minecraft.class_3722 and net.minecraft.class_1263 are in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @29ee9faa)
+	at net.minecraft.class_2480.wrapOperation$bof000$carpet-tis-addition$shulkerBoxCCEReintroduced_castIt(class_2480.java:1547) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2480.method_9572(class_2480.java:251) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26176(class_4970.java:1015) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9991(class_2286.java:119) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9773(class_2286.java:70) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2286.method_9998(class_2286.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2312.method_9612(class_2312.java:92) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26181(class_4970.java:1113) ~[server-intermediary.jar:?]
+	at net.minecraft.class_7165.method_41708(class_7165.java:42) ~[server-intermediary.jar:?]
+	... 32 more
+[19:46:36] [Server thread/INFO]: StenW lost connection: Disconnected
+[19:46:36] [Server thread/INFO]: StenW left the game
+[19:47:56] [Server thread/INFO]: FireGhest lost connection: Disconnected
+[19:47:56] [Server thread/INFO]: FireGhest left the game
+[19:50:20] [User Authenticator #6/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[19:50:20] [Server thread/INFO]: FireGhest[/95.98.151.99:55144] logged in with entity id 31998 at (-562.5767768793077, 64.0, -1066.255871175524)
+[19:50:20] [Server thread/INFO]: FireGhest joined the game
+[19:52:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-661, y=70, z=-956} class_2338{x=-662, y=67, z=-970}
+[19:52:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-661, y=70, z=-956} class_2338{x=-662, y=67, z=-970}
+[20:03:54] [User Authenticator #7/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[20:03:55] [Server thread/INFO]: StenW[/127.0.0.1:2254] logged in with entity id 40879 at (5569.417779802527, 71.79673560066871, 1688.9225547481471)
+[20:03:55] [Server thread/INFO]: StenW joined the game
+[20:03:57] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[20:15:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-672, y=66, z=-974} class_2338{x=-671, y=64, z=-972}
+[20:15:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-673, y=65, z=-977} class_2338{x=-672, y=65, z=-978}
+[20:15:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-673, y=66, z=-979} class_2338{x=-674, y=66, z=-979}
+[20:16:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-678, y=66, z=-979} class_2338{x=-672, y=67, z=-983}
+[20:16:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=65, z=-974} class_2338{x=-685, y=65, z=-974}
+[20:16:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=65, z=-974} class_2338{x=-685, y=65, z=-974}
+[20:16:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=65, z=-974} class_2338{x=-685, y=65, z=-974}
+[20:18:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-977} class_2338{x=-680, y=65, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-682, y=67, z=-980} class_2338{x=-681, y=67, z=-981}
+[20:18:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=66, z=-976} class_2338{x=-685, y=64, z=-977}
+[20:19:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:19:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-690, y=66, z=-978} class_2338{x=-690, y=65, z=-978}
+[20:26:42] [Server thread/INFO]: StenW lost connection: Disconnected
+[20:26:42] [Server thread/INFO]: StenW left the game
+[20:41:51] [User Authenticator #8/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[20:41:52] [Server thread/INFO]: StenW[/127.0.0.1:4687] logged in with entity id 73522 at (-574.0103233046291, 69.0, -1065.300000011921)
+[20:41:52] [Server thread/INFO]: StenW joined the game
+[20:41:53] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-574, y=68, z=-1096} class_2338{x=-573, y=69, z=-1106}
+[20:43:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-571, y=69, z=-1111} class_2338{x=-572, y=69, z=-1112}
+[20:44:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-569, y=66, z=-1100} class_2338{x=-570, y=66, z=-1099}
+[20:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:44:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:44:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:44:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:44:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=69, z=-1113} class_2338{x=-586, y=69, z=-1113}
+[20:47:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=68, z=-1085} class_2338{x=-585, y=67, z=-1086}
+[20:47:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=68, z=-1085} class_2338{x=-585, y=67, z=-1086}
+[20:47:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=68, z=-1085} class_2338{x=-585, y=67, z=-1086}
+[20:47:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=68, z=-1085} class_2338{x=-585, y=67, z=-1086}
+[20:47:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=68, z=-1085} class_2338{x=-585, y=67, z=-1086}
+[20:47:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-581, y=64, z=-1085} class_2338{x=-581, y=65, z=-1082}
+[20:48:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-603, y=68, z=-1079} class_2338{x=-603, y=67, z=-1078}
+[20:48:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-603, y=68, z=-1079} class_2338{x=-603, y=67, z=-1078}
+[20:48:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-603, y=68, z=-1079} class_2338{x=-603, y=67, z=-1078}
+[20:49:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-598, y=68, z=-1082} class_2338{x=-598, y=68, z=-1081}
+[20:49:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-598, y=68, z=-1082} class_2338{x=-598, y=68, z=-1081}
+[20:49:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-598, y=68, z=-1082} class_2338{x=-598, y=68, z=-1081}
+[20:49:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-598, y=68, z=-1082} class_2338{x=-598, y=68, z=-1081}
+[20:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-595, y=66, z=-1101} class_2338{x=-596, y=65, z=-1100}
+[20:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-594, y=66, z=-1100} class_2338{x=-593, y=66, z=-1101}
+[20:51:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-594, y=65, z=-1097} class_2338{x=-592, y=65, z=-1097}
+[20:51:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=69, z=-1093} class_2338{x=-597, y=69, z=-1094}
+[20:51:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=69, z=-1093} class_2338{x=-597, y=69, z=-1094}
+[20:51:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=69, z=-1093} class_2338{x=-597, y=69, z=-1094}
+[20:51:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=69, z=-1093} class_2338{x=-597, y=69, z=-1094}
+[20:51:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=69, z=-1093} class_2338{x=-597, y=69, z=-1094}
+[20:51:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1097} class_2338{x=-590, y=67, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-586, y=69, z=-1098} class_2338{x=-587, y=68, z=-1098}
+[20:51:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-595, y=66, z=-1090} class_2338{x=-597, y=65, z=-1089}
+[20:51:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-585, y=65, z=-1092} class_2338{x=-587, y=69, z=-1091}
+[20:51:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-596, y=64, z=-1075} class_2338{x=-595, y=63, z=-1072}
+[20:53:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-521, y=65, z=-1027} class_2338{x=-520, y=65, z=-1025}
+[20:54:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-546, y=66, z=-1006} class_2338{x=-545, y=66, z=-1006}
+[20:54:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-546, y=66, z=-1006} class_2338{x=-545, y=66, z=-1006}
+[20:54:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-561, y=65, z=-1016} class_2338{x=-563, y=65, z=-1016}
+[20:54:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-565, y=65, z=-1018} class_2338{x=-564, y=65, z=-1018}
+[20:54:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-559, y=65, z=-1024} class_2338{x=-561, y=65, z=-1023}
+[20:54:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-560, y=65, z=-1027} class_2338{x=-558, y=65, z=-1023}
+[20:54:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-560, y=65, z=-1027} class_2338{x=-558, y=65, z=-1023}
+[20:54:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-568, y=65, z=-1023} class_2338{x=-567, y=65, z=-1023}
+[20:54:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-568, y=65, z=-1023} class_2338{x=-567, y=65, z=-1023}
+[20:54:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-568, y=65, z=-1023} class_2338{x=-567, y=65, z=-1023}
+[20:54:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-568, y=65, z=-1023} class_2338{x=-567, y=65, z=-1023}
+[20:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[21:12:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-696, y=65, z=-995} class_2338{x=-694, y=65, z=-995}
+[21:12:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-696, y=64, z=-997} class_2338{x=-695, y=64, z=-996}
+[21:13:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2828, y=97, z=-1572} class_2338{x=-2827, y=96, z=-1572}
+[21:13:24] [Server thread/INFO]: StenW lost connection: Disconnected
+[21:13:24] [Server thread/INFO]: StenW left the game
+[21:15:05] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:15:05] [Server thread/INFO]: Saved the game
+[21:15:08] [Server thread/INFO]: Stopping the server
+[21:15:08] [Server thread/INFO]: Stopping server
+[21:15:08] [Server thread/INFO]: Saving players
+[21:15:08] [Server thread/INFO]: FireGhest lost connection: Server closed
+[21:15:08] [Server thread/INFO]: FireGhest left the game
+[21:15:08] [Server thread/INFO]: Saving worlds
+[21:15:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:15:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:15:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

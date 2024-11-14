@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "StenTheHuman",
+      "uniqueId": "2b45f93c-4428-4852-856c-510463ce411d"
+    },
+    "time": 1684864161197,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "./config/spark/heap-2023-05-23_17.49.16.hprof"
+    }
+  }
+]

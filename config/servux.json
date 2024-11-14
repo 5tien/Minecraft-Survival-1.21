@@ -1,0 +1,33 @@
+{
+  "DataProviderToggles": {
+    "litematic_data": true,
+    "structure_bounding_boxes": true,
+    "servux_main": true,
+    "entity_data": true
+  },
+  "litematic_data": {
+    "permission_level": 0,
+    "permission_level_paste": 0
+  },
+  "structure_bounding_boxes": {
+    "permission_level": 0,
+    "structures_blacklist_enabled": false,
+    "structures_whitelist_enabled": false,
+    "structures_blacklist": [
+      "minecraft:buried_treasure"
+    ],
+    "structures_whitelist": [],
+    "update_interval": 40,
+    "timeout": 600
+  },
+  "servux_main": {
+    "permission_level": 0,
+    "permission_level_admin": 3,
+    "permission_level_easy_place": 0,
+    "default_language": "en_us",
+    "debug_log": false
+  },
+  "entity_data": {
+    "permission_level": 0
+  }
+}

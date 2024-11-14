@@ -1,0 +1,21 @@
+{
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-05-19 20:06:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-05-19 20:06:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-05-19 20:06:20 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

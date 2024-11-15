@@ -6176,7 +6176,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-15 19:08:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-11-15 19:19:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
     "criteria": {
       "has_lapis_ore": "2024-11-15 19:19:15 +0100"
     },
@@ -6194,21 +6206,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-11-15 19:08:36 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2024-11-15 20:35:17 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
-    "criteria": {
-      "has_lapis_ore": "2024-11-15 19:19:15 +0100"
     },
     "done": true
   },

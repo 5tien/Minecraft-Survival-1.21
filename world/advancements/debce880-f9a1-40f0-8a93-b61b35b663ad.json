@@ -6434,12 +6434,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
-    "criteria": {
-      "has_log": "2024-11-18 19:15:18 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/orange_bed": {
     "criteria": {
       "has_orange_wool": "2024-11-18 18:03:23 +0100"
@@ -6452,15 +6446,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mangrove_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-11-18 19:15:18 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/orange_carpet": {
     "criteria": {
       "has_orange_wool": "2024-11-18 18:03:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
+    "criteria": {
+      "has_log": "2024-11-18 19:15:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-18 19:15:18 +0100"
     },
     "done": true
   },

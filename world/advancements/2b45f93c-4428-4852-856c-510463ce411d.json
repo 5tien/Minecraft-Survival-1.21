@@ -172,6 +172,7 @@
       "minecraft:skeleton": "2024-06-25 00:44:26 +0200",
       "minecraft:phantom": "2024-06-24 23:44:25 +0200",
       "minecraft:zombified_piglin": "2024-06-25 14:02:02 +0200",
+      "minecraft:witch": "2024-11-19 15:37:51 +0100",
       "minecraft:wither_skeleton": "2024-09-23 17:48:13 +0200",
       "minecraft:husk": "2024-09-22 16:20:48 +0200",
       "minecraft:bogged": "2024-10-03 22:54:41 +0200",
@@ -186,7 +187,8 @@
       "minecraft:spider": "2024-06-19 23:13:09 +0200",
       "minecraft:zombie": "2024-06-19 20:08:27 +0200",
       "minecraft:creeper": "2024-06-24 23:43:19 +0200",
-      "minecraft:drowned": "2024-06-10 17:14:09 +0200"
+      "minecraft:drowned": "2024-06-10 17:14:09 +0200",
+      "minecraft:slime": "2024-11-19 16:58:07 +0100"
     },
     "done": false
   },
@@ -5077,6 +5079,30 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
     "criteria": {
       "has_oxidized_copper_trapdoor": "2024-10-03 23:53:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-11-19 18:15:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-11-19 18:15:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-11-19 18:15:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-11-19 18:15:56 +0100"
     },
     "done": true
   },

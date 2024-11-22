@@ -1,5 +1,5 @@
-[19:05:57] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[19:05:57] [main/INFO]: Loading 82 mods:
+[03:31:48] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
+[03:31:48] [main/INFO]: Loading 82 mods:
 	- c2me 0.2.0+alpha.11.109+1.21
 	   |-- c2me-base 0.2.0+alpha.11.109+1.21
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.109+1.21
@@ -96,53 +96,53 @@
 	   \-- fabric-permissions-api-v0 0.3.1
 	- slumber 1.2.0
 	- threadtweak 0.1.4+mc1.21
-[19:05:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/F:/All%20Minecraft%20Servers/OFFICIAL%20SERVER/Minecraft-Survival-1.21/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:06:02] [main/INFO]: Compatibility level set to JAVA_16
-[19:06:02] [main/INFO]: Compatibility level set to JAVA_17
-[19:06:02] [main/INFO]: Compatibility level set to JAVA_21
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[19:06:02] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[19:06:02] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:06:02] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[19:06:02] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[19:06:02] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[19:06:02] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[19:06:03] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 5 override(s) found
-[19:06:03] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[19:06:03] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[19:06:03] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[19:06:03] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[19:06:03] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[19:06:03] [main/INFO]: Applying Nashorn fix
-[19:06:03] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[19:06:03] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[19:06:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:06:04] [main/INFO]: ThreadTweak config initialized
-[19:06:07] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[19:06:07] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[19:06:07] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[19:06:07] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[19:06:07] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[19:06:08] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[19:06:11] [main/INFO]: Vanilla bootstrap took 4870 milliseconds
-[19:06:11] [TISCM Mapping/ERROR]: Fail to load mapping Yarn 1.21+build.9
+[03:31:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/stenb/OneDrive/Documents/Minecraft%20Github/Minecraft-Survival-1.21/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:31:48] [main/INFO]: Compatibility level set to JAVA_16
+[03:31:48] [main/INFO]: Compatibility level set to JAVA_17
+[03:31:48] [main/INFO]: Compatibility level set to JAVA_21
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[03:31:49] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[03:31:49] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:31:49] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[03:31:49] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[03:31:49] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[03:31:49] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 5 override(s) found
+[03:31:49] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[03:31:49] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[03:31:49] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[03:31:49] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[03:31:49] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[03:31:49] [main/INFO]: Applying Nashorn fix
+[03:31:50] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[03:31:50] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:31:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:31:50] [main/INFO]: ThreadTweak config initialized
+[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[03:31:54] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[03:31:57] [main/INFO]: Vanilla bootstrap took 5233 milliseconds
+[03:31:57] [TISCM Mapping/ERROR]: Fail to load mapping Yarn 1.21+build.9
 carpettisaddition.libs.net.fabricmc.mapping.reader.v2.MappingParseException: Error on line "	m	(Lcom/moj"!
 	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:92) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
 	at carpettisaddition.utils.deobfuscator.mapping.TinyMappingV2Reader.readMapping(TinyMappingV2Reader.java:39) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
@@ -153,18 +153,17 @@ carpettisaddition.libs.net.fabricmc.mapping.reader.v2.MappingParseException: Err
 Caused by: java.lang.IllegalArgumentException: Wrong number of parts for definition of a METHOD!
 	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:81) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
 	... 5 more
-[19:06:11] [main/INFO]: Compression will use Java, encryption will use Java
-[19:06:11] [main/WARN]: @Redirect conflict. Skipping carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000, already redirected by mixins.servux.json:MixinServerPlayNetworkHandler from mod servux->@Redirect::servux$removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005
-[19:06:12] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[19:06:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:06:14] [main/INFO]: Loaded 1290 recipes
-[19:06:14] [main/INFO]: Loaded 1399 advancements
-[19:06:14] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.829 ms
-[19:06:15] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:06:15] [Server thread/INFO]: Loading properties
-[19:06:15] [Server thread/INFO]: Default game type: SURVIVAL
-[19:06:15] [Server thread/INFO]: Generating keypair
-[19:06:15] [Server console handler/ERROR]: Exception handling console input
+[03:31:58] [main/INFO]: Compression will use Java, encryption will use Java
+[03:31:58] [main/WARN]: @Redirect conflict. Skipping carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000, already redirected by mixins.servux.json:MixinServerPlayNetworkHandler from mod servux->@Redirect::servux$removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005
+[03:31:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[03:31:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:32:00] [main/INFO]: Loaded 1290 recipes
+[03:32:01] [main/INFO]: Loaded 1399 advancements
+[03:32:01] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.873 ms
+[03:32:01] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:32:01] [Server thread/INFO]: Loading properties
+[03:32:01] [Server thread/INFO]: Default game type: SURVIVAL
+[03:32:01] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -181,71 +180,39 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
-[19:06:15] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[19:06:15] [Server thread/INFO]: Using default channel type
-[19:06:15] [Server thread/INFO]: Preparing level "world"
-[19:06:15] [Server thread/INFO]: [CM] Loaded 14 settings from carpet.conf
-[19:06:15] [Server thread/INFO]: Enforcing safe world random access
-[19:06:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:06:17] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[19:06:17] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:06:17] [Server thread/INFO]: Time elapsed: 409 ms
-[19:06:17] [Server thread/INFO]: Done (1.790s)! For help, type "help"
-[19:06:17] [Server thread/WARN]: Dedicated server took 22.543 seconds to load
-[19:06:39] [User Authenticator #1/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
-[19:06:40] [Server thread/INFO]: FireGhest[/127.0.0.1:59112] logged in with entity id 26 at (-565.6213399509202, 65.875, -1042.8070546327408)
-[19:06:40] [Server thread/INFO]: FireGhest joined the game
-[19:08:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
-[19:16:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-508, y=66, z=-667} class_2338{x=-508, y=67, z=-667}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:44:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-511, y=68, z=-1080} class_2338{x=-503, y=92, z=-1077}
-[19:45:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-502, y=87, z=-1061} class_2338{x=-502, y=87, z=-1060}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:04:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-513, y=87, z=-1124} class_2338{x=-512, y=88, z=-1124}
-[20:51:14] [Server thread/INFO]: [FireGhest: Saved the game]
-[20:51:19] [Server thread/INFO]: FireGhest lost connection: Disconnected
-[20:51:19] [Server thread/INFO]: FireGhest left the game
-[21:00:01] [User Authenticator #2/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
-[21:00:03] [Server thread/INFO]: FireGhest[/127.0.0.1:60984] logged in with entity id 44843 at (-565.766201342445, 66.0, -1042.3457940709266)
-[21:00:03] [Server thread/INFO]: FireGhest joined the game
-[21:06:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-526, y=81, z=-1088} class_2338{x=-525, y=81, z=-1087}
-[21:06:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-526, y=81, z=-1088} class_2338{x=-525, y=81, z=-1087}
-[21:06:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-526, y=81, z=-1088} class_2338{x=-525, y=81, z=-1087}
-[21:06:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-524, y=81, z=-1087} class_2338{x=-525, y=81, z=-1087}
-[21:11:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-536, y=78, z=-1094} class_2338{x=-536, y=76, z=-1092}
-[21:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-539, y=77, z=-1083} class_2338{x=-540, y=77, z=-1083}
-[21:14:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-538, y=72, z=-1091} class_2338{x=-536, y=74, z=-1093}
-[21:14:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-538, y=74, z=-1088} class_2338{x=-540, y=72, z=-1084}
-[21:14:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-538, y=74, z=-1088} class_2338{x=-540, y=72, z=-1084}
-[21:14:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-535, y=74, z=-1085} class_2338{x=-534, y=73, z=-1085}
-[21:14:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-535, y=74, z=-1085} class_2338{x=-534, y=73, z=-1085}
-[21:14:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-535, y=74, z=-1085} class_2338{x=-534, y=73, z=-1085}
-[21:14:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-535, y=74, z=-1085} class_2338{x=-534, y=73, z=-1085}
-[21:18:15] [Server thread/INFO]: [FireGhest: Saved the game]
-[21:23:09] [Server thread/INFO]: [FireGhest: Saved the game]
-[21:23:10] [Server thread/INFO]: [FireGhest: Stopping the server]
-[21:23:10] [Server thread/INFO]: Stopping server
-[21:23:10] [Server thread/INFO]: Saving players
-[21:23:10] [Server thread/INFO]: Saving worlds
-[21:23:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:23:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:23:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:23:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:23:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:23:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:23:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:23:11] [C2ME Storage #3/INFO]: Storage thread Thread[#101,C2ME Storage #3,8,main] stopped
-[21:23:11] [C2ME Storage #6/INFO]: Storage thread Thread[#104,C2ME Storage #6,8,main] stopped
-[21:23:11] [C2ME Storage #9/INFO]: Storage thread Thread[#107,C2ME Storage #9,8,main] stopped
+[03:32:01] [Server thread/INFO]: Generating keypair
+[03:32:01] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[03:32:01] [Server thread/INFO]: Using default channel type
+[03:32:02] [Server thread/INFO]: Preparing level "world"
+[03:32:02] [Server thread/INFO]: [CM] Loaded 14 settings from carpet.conf
+[03:32:02] [Server thread/INFO]: Enforcing safe world random access
+[03:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:32:03] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[03:32:03] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[03:32:03] [Server thread/INFO]: Time elapsed: 439 ms
+[03:32:03] [Server thread/INFO]: Done (1.898s)! For help, type "help"
+[03:32:03] [Server thread/WARN]: Dedicated server took 16.72 seconds to load
+[03:32:20] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[03:32:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e1003a[id=2b45f93c-4428-4852-856c-510463ce411d,name=StenW,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczMjI3NTE0MDUwMiwKICAicHJvZmlsZUlkIiA6ICIyYjQ1ZjkzYzQ0Mjg0ODUyODU2YzUxMDQ2M2NlNDExZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGVuVyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTE2Yjc5ZDU0MjA2MjI4ZjZhN2FkNTU2OTY0MjVkYTYzZDQ0NDQ2NDVmOGUyN2I1NDU4ZTQ4YWJlYTBlMWVlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ==, signature=Lz36VKVAWw3OQw1gIC0stGOgfihwwEW81xcuHBEYcTxZ67Fa3Rzup41t5lxRZhTcXmrN0yGT1kzZvB70LVunr4xPOMDK7TpVL/SjEXMgt83aPCbWa0yZc+GVdHZDLeHQcTpDl+Q0kE+FKcZUN2245okhN18wD1+e4UkaZmwF95I7gPq0LYJhkbfi0VmWStZ4Rlqy5LyxxCjlkpEsBgVNJanu2DgANw0sYpNhxx8Puvw+TyJIYT3b31tQd/dOpW3P/2YfMGouYbJ/tSoY3fqqvAvRJLPlmz+nKwfXnHnVU2Ne1+Mw/2nCpTQGU+VQ3Q8FgdtYpSWKHyb1nIdu9rQIDjwr3dwmvCs93PHIoCYYxMp+iNSqI+DI5qUnYa6/YOKmXEMEJu+WTUaeETPSXWfizLondkyt7Dx6U/d96MDqfMLt+V7owRsWRcXEbvQGDN7W8QSxaXMKsA3PaKCl5fR7ldmbbCmBrqbLFXrqIn4IStKKRYv2CTSu60Agncdo3TznuR9UGLLHQWj1kwwZj4Cd+RbXJBEskyZbS8hRCrXyEWdKXh8Tm0xzxrjvsgv3pGoQ5I6xk9ruOMO9CcEEhUfobjGeP4JsNkGwgh+jCUauQf9538sQ/xa/z8DTQKQ4rd8xDMt9BHWvueKp5XHWiFQUKYRe1wQA9BL+XRj3xEMF1o4=]]}] lost connection: Disconnected
+[03:32:25] [User Authenticator #2/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[03:32:26] [Server thread/INFO]: StenW[/127.0.0.1:56614] logged in with entity id 26 at (4980.289150159303, 76.0, 5247.449085243265)
+[03:32:26] [Server thread/INFO]: StenW joined the game
+[03:32:28] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[04:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4852ms or 97 ticks behind
+[04:05:48] [Server thread/INFO]: [StenW: StenW subscribed to tps.]
+[04:05:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7658ms or 153 ticks behind
+[04:48:09] [Server thread/INFO]: [StenW: Saved the game]
+[04:48:11] [Server thread/INFO]: [StenW: Stopping the server]
+[04:48:11] [Server thread/INFO]: Stopping server
+[04:48:11] [Server thread/INFO]: Saving players
+[04:48:11] [Server thread/INFO]: Saving worlds
+[04:48:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:48:12] [C2ME Storage #3/INFO]: Storage thread Thread[#88,C2ME Storage #3,8,main] stopped
+[04:48:12] [C2ME Storage #6/INFO]: Storage thread Thread[#91,C2ME Storage #6,8,main] stopped
+[04:48:12] [C2ME Storage #9/INFO]: Storage thread Thread[#94,C2ME Storage #9,8,main] stopped

@@ -1,218 +1,495 @@
-[03:31:48] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[03:31:48] [main/INFO]: Loading 82 mods:
-	- c2me 0.2.0+alpha.11.109+1.21
-	   |-- c2me-base 0.2.0+alpha.11.109+1.21
-	   |-- c2me-client-uncapvd 0.2.0+alpha.11.109+1.21
-	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.109+1.21
-	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.109+1.21
-	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.109+1.21
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.109+1.21
-	   |-- c2me-notickvd 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-allocs 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-chunkio 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-math 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-scheduling 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.109+1.21
-	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.109+1.21
-	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.109+1.21
-	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.109+1.21
-	   |-- c2me-server-utils 0.2.0+alpha.11.109+1.21
-	   |-- c2me-threading-chunkio 0.2.0+alpha.11.109+1.21
-	   |-- c2me-threading-lighting 0.2.0+alpha.11.109+1.21
-	   |-- c2me-threading-worldgen 0.2.0+alpha.11.109+1.21
-	   |-- com_electronwill_night-config_core 3.6.5
-	   |-- com_electronwill_night-config_toml 3.6.5
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- net_objecthunter_exp4j 0.4.8
-	   \-- org_threadly_threadly 7.0
-	- carpet 1.4.147+v240613
-	- carpet-extra 1.4.148
-	- carpet-tis-addition 1.64.0
-	   \-- conditional-mixin 0.6.3
-	- fabric-api 0.102.0+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
-	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
-	   |-- fabric-commands-v0 0.2.66+df3654b3d1
-	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
-	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
-	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
-	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
-	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
-	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
-	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
-	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
-	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
-	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
-	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
-	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
-	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
-	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
-	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
-	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
-	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
-	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
-	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
-	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
-	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
-	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
-	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
-	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
-	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
-	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
-	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
-	- fabricloader 0.16.5
-	   \-- mixinextras 0.4.1
-	- ferritecore 7.0.0
-	- invview 1.4.15-1.20.5+
-	   \-- sgui 1.5.0+1.20.5
-	- java 21
-	- krypton 0.2.8
-	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
-	- lithium 0.13.1
-	- minecraft 1.21
-	- modernfix 5.19.1+mc1.21
-	- scalablelux 0.1.0+fabric.26c6e72
-	- servux 0.3.8
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   \-- fabric-permissions-api-v0 0.3.1
-	- slumber 1.2.0
-	- threadtweak 0.1.4+mc1.21
-[03:31:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/stenb/OneDrive/Documents/Minecraft%20Github/Minecraft-Survival-1.21/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:31:48] [main/INFO]: Compatibility level set to JAVA_16
-[03:31:48] [main/INFO]: Compatibility level set to JAVA_17
-[03:31:48] [main/INFO]: Compatibility level set to JAVA_21
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[03:31:49] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[03:31:49] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:31:49] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[03:31:49] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[03:31:49] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[03:31:49] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[03:31:49] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 5 override(s) found
-[03:31:49] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[03:31:49] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[03:31:49] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[03:31:49] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[03:31:49] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[03:31:49] [main/INFO]: Applying Nashorn fix
-[03:31:50] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[03:31:50] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[03:31:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:31:50] [main/INFO]: ThreadTweak config initialized
-[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[03:31:53] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[03:31:54] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[03:31:57] [main/INFO]: Vanilla bootstrap took 5233 milliseconds
-[03:31:57] [TISCM Mapping/ERROR]: Fail to load mapping Yarn 1.21+build.9
-carpettisaddition.libs.net.fabricmc.mapping.reader.v2.MappingParseException: Error on line "	m	(Lcom/moj"!
-	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:92) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	at carpettisaddition.utils.deobfuscator.mapping.TinyMappingV2Reader.readMapping(TinyMappingV2Reader.java:39) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	at carpettisaddition.utils.deobfuscator.StackTraceDeobfuscator.loadMappings(StackTraceDeobfuscator.java:66) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	at carpettisaddition.utils.deobfuscator.yarn.OnlineMappingProvider.loadMappings(OnlineMappingProvider.java:173) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	at carpettisaddition.utils.deobfuscator.yarn.OnlineMappingProvider.getMappingThreaded(OnlineMappingProvider.java:194) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.IllegalArgumentException: Wrong number of parts for definition of a METHOD!
-	at carpettisaddition.libs.net.fabricmc.mapping.reader.v2.TinyV2Factory.visit(TinyV2Factory.java:81) ~[carpet-tis-addition-v1.64.0-mc1.21.1.jar:?]
-	... 5 more
-[03:31:58] [main/INFO]: Compression will use Java, encryption will use Java
-[03:31:58] [main/WARN]: @Redirect conflict. Skipping carpet-extra.mixins.json:ServerPlayNetworkHandlerMixin from mod carpet-extra->@Redirect::carpetextra_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1000, already redirected by mixins.servux.json:MixinServerPlayNetworkHandler from mod servux->@Redirect::servux$removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005
-[03:31:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[03:31:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:32:00] [main/INFO]: Loaded 1290 recipes
-[03:32:01] [main/INFO]: Loaded 1399 advancements
-[03:32:01] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.873 ms
-[03:32:01] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:32:01] [Server thread/INFO]: Loading properties
-[03:32:01] [Server thread/INFO]: Default game type: SURVIVAL
-[03:32:01] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
-[03:32:01] [Server thread/INFO]: Generating keypair
-[03:32:01] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[03:32:01] [Server thread/INFO]: Using default channel type
-[03:32:02] [Server thread/INFO]: Preparing level "world"
-[03:32:02] [Server thread/INFO]: [CM] Loaded 14 settings from carpet.conf
-[03:32:02] [Server thread/INFO]: Enforcing safe world random access
-[03:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:32:03] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[03:32:03] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[03:32:03] [Server thread/INFO]: Time elapsed: 439 ms
-[03:32:03] [Server thread/INFO]: Done (1.898s)! For help, type "help"
-[03:32:03] [Server thread/WARN]: Dedicated server took 16.72 seconds to load
-[03:32:20] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[03:32:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e1003a[id=2b45f93c-4428-4852-856c-510463ce411d,name=StenW,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczMjI3NTE0MDUwMiwKICAicHJvZmlsZUlkIiA6ICIyYjQ1ZjkzYzQ0Mjg0ODUyODU2YzUxMDQ2M2NlNDExZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGVuVyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTE2Yjc5ZDU0MjA2MjI4ZjZhN2FkNTU2OTY0MjVkYTYzZDQ0NDQ2NDVmOGUyN2I1NDU4ZTQ4YWJlYTBlMWVlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ==, signature=Lz36VKVAWw3OQw1gIC0stGOgfihwwEW81xcuHBEYcTxZ67Fa3Rzup41t5lxRZhTcXmrN0yGT1kzZvB70LVunr4xPOMDK7TpVL/SjEXMgt83aPCbWa0yZc+GVdHZDLeHQcTpDl+Q0kE+FKcZUN2245okhN18wD1+e4UkaZmwF95I7gPq0LYJhkbfi0VmWStZ4Rlqy5LyxxCjlkpEsBgVNJanu2DgANw0sYpNhxx8Puvw+TyJIYT3b31tQd/dOpW3P/2YfMGouYbJ/tSoY3fqqvAvRJLPlmz+nKwfXnHnVU2Ne1+Mw/2nCpTQGU+VQ3Q8FgdtYpSWKHyb1nIdu9rQIDjwr3dwmvCs93PHIoCYYxMp+iNSqI+DI5qUnYa6/YOKmXEMEJu+WTUaeETPSXWfizLondkyt7Dx6U/d96MDqfMLt+V7owRsWRcXEbvQGDN7W8QSxaXMKsA3PaKCl5fR7ldmbbCmBrqbLFXrqIn4IStKKRYv2CTSu60Agncdo3TznuR9UGLLHQWj1kwwZj4Cd+RbXJBEskyZbS8hRCrXyEWdKXh8Tm0xzxrjvsgv3pGoQ5I6xk9ruOMO9CcEEhUfobjGeP4JsNkGwgh+jCUauQf9538sQ/xa/z8DTQKQ4rd8xDMt9BHWvueKp5XHWiFQUKYRe1wQA9BL+XRj3xEMF1o4=]]}] lost connection: Disconnected
-[03:32:25] [User Authenticator #2/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[03:32:26] [Server thread/INFO]: StenW[/127.0.0.1:56614] logged in with entity id 26 at (4980.289150159303, 76.0, 5247.449085243265)
-[03:32:26] [Server thread/INFO]: StenW joined the game
-[03:32:28] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[04:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4852ms or 97 ticks behind
-[04:05:48] [Server thread/INFO]: [StenW: StenW subscribed to tps.]
-[04:05:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7658ms or 153 ticks behind
-[04:48:09] [Server thread/INFO]: [StenW: Saved the game]
-[04:48:11] [Server thread/INFO]: [StenW: Stopping the server]
-[04:48:11] [Server thread/INFO]: Stopping server
-[04:48:11] [Server thread/INFO]: Saving players
-[04:48:11] [Server thread/INFO]: Saving worlds
-[04:48:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:48:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:48:12] [C2ME Storage #3/INFO]: Storage thread Thread[#88,C2ME Storage #3,8,main] stopped
-[04:48:12] [C2ME Storage #6/INFO]: Storage thread Thread[#91,C2ME Storage #6,8,main] stopped
-[04:48:12] [C2ME Storage #9/INFO]: Storage thread Thread[#94,C2ME Storage #9,8,main] stopped
+[00:10:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-534, y=72, z=-1014} class_2338{x=-535, y=71, z=-1015}
+[00:35:29] [User Authenticator #10/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[00:35:30] [Server thread/INFO]: StenW[/217.123.19.99:58973] logged in with entity id 214772 at (4986.069357126821, 137.0, 5239.194519609065)
+[00:35:30] [Server thread/INFO]: StenW joined the game
+[00:35:31] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[00:35:36] [Server thread/INFO]: <StenW> YOOOOOOOOOO
+[00:35:39] [Server thread/INFO]: <FireGhest> yo
+[00:35:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[00:36:05] [Server thread/INFO]: <StenW> heb je alles gefixed
+[00:36:06] [Server thread/INFO]: <StenW> van de farm
+[00:36:07] [Server thread/INFO]: <StenW> ?
+[00:36:13] [Server thread/INFO]: <FireGhest> in principe is er geen cobble meer
+[00:36:16] [Server thread/INFO]: <FireGhest> maar dus wel gate
+[00:36:27] [Server thread/INFO]: <StenW> gate?
+[00:36:29] [Server thread/INFO]: <FireGhest> n
+[00:36:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:36:49] [Server thread/INFO]: StenW lost connection: Disconnected
+[00:36:49] [Server thread/INFO]: StenW left the game
+[00:38:41] [User Authenticator #11/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[00:38:42] [Server thread/INFO]: StenW[/217.123.19.99:50003] logged in with entity id 217290 at (4986.544007977289, 138.0, 5241.067359757729)
+[00:38:42] [Server thread/INFO]: StenW joined the game
+[00:38:43] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[00:38:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[00:38:50] [Server thread/INFO]: <StenW> ok mijn pc crasht ff
+[00:38:57] [Server thread/INFO]: <FireGhest> loll
+[00:40:58] [Server thread/INFO]: <StenW> oke nice
+[00:41:02] [Server thread/INFO]: <StenW> je hebt alle cobbel weg gehalld
+[00:41:06] [Server thread/INFO]: <FireGhest> dope
+[00:41:59] [Server thread/INFO]: <StenW> nu is t letterlijk gewoon laten runnen
+[00:42:12] [Server thread/INFO]: <FireGhest> yes
+[00:42:13] [Server thread/INFO]: <StenW> en wachten tot alle hoppers gevult zijn
+[00:42:16] [Server thread/INFO]: <FireGhest> want
+[00:42:16] [Server thread/INFO]: <StenW> net bonemeal
+[00:42:23] [Server thread/INFO]: <FireGhest> heel veel bone blocks nodig
+[00:42:31] [Server thread/INFO]: <StenW> ??
+[00:42:43] [Server thread/INFO]: <FireGhest> voor de base foc
+[00:42:44] [Server thread/INFO]: bonemeal[local] logged in with entity id 224758 at (4982.300000011921, 61.0, 5238.527524075396)
+[00:42:44] [Server thread/INFO]: bonemeal joined the game
+[00:42:46] [Server thread/INFO]: <FireGhest> ofc
+[00:42:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[00:42:52] [Server thread/INFO]: <StenW> . . .
+[00:43:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2417ms or 48 ticks behind
+[00:43:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2587ms or 51 ticks behind
+[00:43:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10479ms or 209 ticks behind
+[00:44:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8861ms or 177 ticks behind
+[00:44:14] [Server thread/INFO]: <FireGhest> ?
+[00:44:18] [Server thread/INFO]: <FireGhest> wat?
+[00:44:20] [Server thread/INFO]: <StenW> damnn
+[00:44:23] [Server thread/INFO]: <StenW> je komt wel ver
+[00:44:24] [Server thread/INFO]: <FireGhest> ja progress
+[00:44:26] [Server thread/INFO]: <FireGhest> i know
+[00:44:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3220ms or 64 ticks behind
+[00:44:31] [Server thread/INFO]: <FireGhest> echt fking langzaaom tho
+[00:44:35] [Server thread/INFO]: <StenW> hahahah ja
+[00:44:39] [Server thread/INFO]: <FireGhest> like
+[00:44:40] [Server thread/INFO]: <StenW> 10% ongeveer ofzo
+[00:44:42] [Server thread/INFO]: <FireGhest> de bottleneck is
+[00:44:45] [Server thread/INFO]: <FireGhest> FUCKING MANGROVE
+[00:44:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[00:44:51] [Server thread/INFO]: <FireGhest> IK HAAT
+[00:44:51] [Server thread/INFO]: <StenW> ?!?!??!
+[00:44:53] [Server thread/INFO]: <FireGhest> DAT MINEN
+[00:45:01] [Server thread/INFO]: <StenW> ik wil je ff helpen
+[00:45:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[00:45:11] [Server thread/INFO]: <FireGhest> als je wilt
+[00:45:14] [Server thread/INFO]: <FireGhest> kan je of
+[00:45:18] [Server thread/INFO]: <FireGhest> mangrove bouwen
+[00:45:21] [Server thread/INFO]: <FireGhest> maar dat is kut
+[00:45:27] [Server thread/INFO]: <StenW> bouwen alsin
+[00:45:28] [Server thread/INFO]: <FireGhest> dus je kan ook de zeilen doen
+[00:45:28] [Server thread/INFO]: <StenW> het huis
+[00:45:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[00:45:30] [Server thread/INFO]: <StenW> ?
+[00:45:32] [Server thread/INFO]: <FireGhest> van de boten
+[00:45:35] [Server thread/INFO]: <FireGhest> ?
+[00:45:36] [Server thread/INFO]: <StenW> ja isg
+[00:45:44] [Server thread/INFO]: <StenW> wacht wat zijn de coords van
+[00:45:45] [Server thread/INFO]: <FireGhest> die shulker
+[00:45:48] [Server thread/INFO]: <StenW> de schematic
+[00:45:52] [Server thread/INFO]: <StenW> ik hem m verwijderd
+[00:45:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[00:45:59] [Server thread/INFO]: <FireGhest> nee dit is andere server sws
+[00:46:09] [Server thread/INFO]: <StenW> ???
+[00:46:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2390ms or 47 ticks behind
+[00:46:17] [Server thread/INFO]: <StenW> wdym andere server
+[00:46:26] [Server thread/INFO]: <StenW> ik ben beetje aangeschoten
+[00:46:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
+[00:46:31] [Server thread/INFO]: <FireGhest> lol
+[00:46:34] [Server thread/INFO]: <StenW> dank
+[00:46:35] [Server thread/INFO]: <FireGhest> je moet alleen wel
+[00:46:48] [Server thread/INFO]: <FireGhest> nog smooth quartz en snow ervoor hebbe
+[00:46:52] [Server thread/INFO]: <FireGhest> want die heb ik neit
+[00:46:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[00:46:55] [Server thread/INFO]: <StenW> O god
+[00:46:57] [Server thread/INFO]: <FireGhest> maar dus wel al een start
+[00:47:04] [Server thread/INFO]: <StenW> de server is wel op 50 mspt
+[00:47:09] [Server thread/INFO]: <StenW> dus kweet niet of ik nu
+[00:47:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2978ms or 59 ticks behind
+[00:47:12] [Server thread/INFO]: <StenW> rond kan vliegen
+[00:47:13] [Server thread/INFO]: <FireGhest> oh god
+[00:47:15] [Server thread/INFO]: <FireGhest> ik merk t
+[00:47:17] [Server thread/INFO]: <StenW> hij ging net naar 110
+[00:47:21] [Server thread/INFO]: <StenW> toen ik in de nether zat
+[00:47:43] [Server thread/INFO]: <FireGhest> ja doe gwn anders eerst sws de blokken die je nu hebt
+[00:47:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[00:48:11] [Server thread/INFO]: <StenW> bro deze shit laggt echt
+[00:48:17] [Server thread/INFO]: <StenW> ik ga ff die bot weghalen eerst
+[00:48:23] [Server thread/INFO]: <FireGhest> ja dat helpt vooral niet
+[00:48:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[00:48:47] [Server thread/INFO]: <StenW> ja we maar die shit moet echt nog lang runnen
+[00:48:51] [Server thread/INFO]: <StenW> gvd
+[00:48:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3935ms or 78 ticks behind
+[00:48:57] [Server thread/INFO]: <FireGhest> ja maar
+[00:49:00] [Server thread/INFO]: <FireGhest> anders doen we dat
+[00:49:04] [Server thread/INFO]: <StenW> morgen
+[00:49:05] [Server thread/INFO]: <FireGhest> wanneer 1 van ons er op zit
+[00:49:09] [Server thread/INFO]: <StenW> ja
+[00:49:10] [Server thread/INFO]: <StenW> prcs
+[00:49:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6639ms or 132 ticks behind
+[00:49:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4157ms or 83 ticks behind
+[00:49:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4753ms or 95 ticks behind
+[00:50:07] [Server thread/INFO]: <StenW> je hebt nog een paar cobbelstone gemist
+[00:50:09] [Server thread/INFO]: <StenW> maar maakt niet uit
+[00:50:13] [Server thread/INFO]: <StenW> 1s
+[00:50:14] [Server thread/INFO]: StenW lost connection: Disconnected
+[00:50:14] [Server thread/INFO]: StenW left the game
+[00:50:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[00:51:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[00:51:58] [User Authenticator #12/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[00:51:58] [Server thread/INFO]: StenW[/217.123.19.99:50111] logged in with entity id 260656 at (4982.894413697383, 139.125, 5244.6090963609095)
+[00:51:58] [Server thread/INFO]: StenW joined the game
+[00:51:59] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[00:52:01] [Server thread/INFO]: <StenW> ik heb
+[00:52:02] [Server thread/INFO]: <StenW> mf
+[00:52:03] [Server thread/INFO]: <StenW> pizza
+[00:52:05] [Server thread/INFO]: <StenW> bitch
+[00:52:10] [Server thread/INFO]: <FireGhest> jaloers
+[00:52:40] [Server thread/INFO]: <StenW> snap ik :)
+[00:52:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2170ms or 43 ticks behind
+[00:52:48] [Server thread/INFO]: bonemeal lost connection: Killed
+[00:52:48] [Server thread/INFO]: bonemeal left the game
+[00:53:01] [Server thread/INFO]: <StenW> jezus
+[00:53:02] [Server thread/INFO]: <StenW> 130
+[00:53:04] [Server thread/INFO]: <StenW> 150
+[00:53:07] [Server thread/INFO]: <FireGhest> jup
+[00:53:09] [Server thread/INFO]: <StenW> wat doe jij
+[00:53:10] [Server thread/INFO]: <FireGhest> ik zie het
+[00:53:11] [Server thread/INFO]: <StenW> lol
+[00:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11403ms or 228 ticks behind
+[00:53:12] [Server thread/INFO]: <FireGhest> god
+[00:53:52] [Server thread/INFO]: <StenW> woon jij trouwens in leidserein?
+[00:53:55] [Server thread/INFO]: <StenW> of wa
+[00:54:01] [Server thread/INFO]: <FireGhest> hoezo?
+[00:54:05] [Server thread/INFO]: <StenW> gewoon
+[00:54:07] [Server thread/INFO]: <FireGhest> heb je me zitten doxen?
+[00:54:08] [Server thread/INFO]: <StenW> beniewd
+[00:54:13] [Server thread/INFO]: <StenW> hahaah ne
+[00:54:14] [Server thread/INFO]: <StenW> nee
+[00:54:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6950ms or 139 ticks behind
+[00:54:29] [Server thread/INFO]: <FireGhest> dan ja
+[00:54:37] [Server thread/INFO]: <StenW> das crazy
+[00:54:41] [Server thread/INFO]: <FireGhest> watdan
+[00:54:49] [Server thread/INFO]: <StenW> je hebt zelfs de booten ingericht
+[00:54:51] [Server thread/INFO]: <StenW> van binnen
+[00:54:53] [Server thread/INFO]: <StenW> lmao
+[00:54:54] [Server thread/INFO]: <FireGhest> jupp
+[00:54:56] [Server thread/INFO]: <FireGhest> die wel
+[00:55:04] [Server thread/INFO]: <FireGhest> en ik woon niet echt daar maarja
+[00:55:08] [Server thread/INFO]: <FireGhest> close enough
+[00:55:13] [Server thread/INFO]: <StenW> fair
+[00:55:17] [Server thread/INFO]: <FireGhest> maar?
+[00:55:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-674, y=77, z=-954} class_2338{x=-673, y=79, z=-953}
+[00:55:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-674, y=77, z=-954} class_2338{x=-673, y=79, z=-953}
+[00:55:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-674, y=77, z=-954} class_2338{x=-673, y=79, z=-953}
+[00:55:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-674, y=77, z=-954} class_2338{x=-673, y=79, z=-953}
+[00:55:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-674, y=77, z=-954} class_2338{x=-673, y=79, z=-953}
+[00:55:28] [Server thread/INFO]: <StenW> ?
+[00:55:33] [Server thread/INFO]: <FireGhest> vanwaar de vraag?
+[00:55:44] [Server thread/INFO]: <StenW> vroeg het me af
+[00:55:50] [Server thread/INFO]: <StenW> niks speciaals
+[00:56:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-672, y=70, z=-956} class_2338{x=-673, y=70, z=-958}
+[00:56:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-672, y=70, z=-956} class_2338{x=-673, y=70, z=-958}
+[00:56:47] [Server thread/INFO]: <StenW> ik ga ff mn pizza eten
+[00:56:51] [Server thread/INFO]: <StenW> ik ben zo terug
+[00:56:55] [Server thread/INFO]: <FireGhest> sure
+[00:57:02] [Server thread/INFO]: <StenW> zijn dit trouwens
+[00:57:06] [Server thread/INFO]: <StenW> precies de hoeveelhijd
+[00:57:08] [Server thread/INFO]: <StenW> aan
+[00:57:12] [Server thread/INFO]: <StenW> blokken
+[00:57:14] [Server thread/INFO]: <FireGhest> uh volgens mij wel
+[00:57:15] [Server thread/INFO]: <StenW> voor de sails
+[00:57:17] [Server thread/INFO]: <StenW> ok top
+[00:57:19] [Server thread/INFO]: <StenW> tot zo
+[00:57:20] [Server thread/INFO]: StenW lost connection: Disconnected
+[00:57:20] [Server thread/INFO]: StenW left the game
+[01:05:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-666, y=82, z=-958} class_2338{x=-665, y=81, z=-957}
+[01:05:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-666, y=82, z=-958} class_2338{x=-665, y=81, z=-957}
+[01:05:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-666, y=82, z=-958} class_2338{x=-665, y=81, z=-957}
+[01:05:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-661, y=81, z=-955} class_2338{x=-664, y=82, z=-956}
+[01:05:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-661, y=81, z=-955} class_2338{x=-664, y=82, z=-956}
+[01:05:34] [User Authenticator #13/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[01:05:34] [Server thread/INFO]: StenW[/217.123.19.99:50429] logged in with entity id 269774 at (-637.9043110603595, 76.0, -1184.9250999897324)
+[01:05:34] [Server thread/INFO]: StenW joined the game
+[01:05:35] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[01:05:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-666, y=77, z=-962} class_2338{x=-665, y=77, z=-962}
+[01:06:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-664, y=72, z=-957} class_2338{x=-664, y=71, z=-958}
+[01:06:44] [Server thread/INFO]: <StenW> ik heb nog wat snow blocks nodig
+[01:06:49] [Server thread/INFO]: <FireGhest> ja
+[01:06:51] [Server thread/INFO]: <FireGhest> klopt
+[01:06:58] [Server thread/INFO]: <FireGhest> maar we hebben niks
+[01:07:11] [Server thread/INFO]: <StenW> ok lol
+[01:08:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-665, y=70, z=-963} class_2338{x=-666, y=69, z=-963}
+[01:08:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-665, y=70, z=-963} class_2338{x=-666, y=69, z=-963}
+[01:08:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-665, y=70, z=-963} class_2338{x=-666, y=69, z=-963}
+[01:09:25] [Server thread/INFO]: <StenW> kom eens
+[01:09:27] [Server thread/INFO]: <StenW> naar de boot
+[01:09:30] [Server thread/INFO]: <FireGhest> yo
+[01:09:34] [Server thread/INFO]: <FireGhest> yo wat
+[01:09:39] [Server thread/INFO]: <FireGhest> LOL
+[01:09:39] [Server thread/INFO]: <StenW> lol
+[01:09:47] [Server thread/INFO]: <FireGhest> awww
+[01:09:55] [Server thread/INFO]: <StenW> ja kut
+[01:09:57] [Server thread/INFO]: <StenW> nu zit iks vas
+[01:10:04] [Server thread/INFO]: <FireGhest> nu hij
+[01:10:06] [Server thread/INFO]: <StenW> pak een nametag
+[01:10:09] [Server thread/INFO]: <StenW> HENK
+[01:10:17] [Server thread/INFO]: <FireGhest> nee
+[01:10:25] [Server thread/INFO]: <StenW> ok wacht hier
+[01:10:26] [Server thread/INFO]: <FireGhest> geef me ff
+[01:10:27] [Server thread/INFO]: <StenW> kut
+[01:10:31] [Server thread/INFO]: <StenW> heb jij nog firework
+[01:10:41] [Server thread/INFO]: <StenW> heb mn enderchest niet bij me
+[01:10:50] [Server thread/INFO]: <FireGhest> ja geef me ff
+[01:10:55] [Server thread/INFO]: <StenW> ok ok
+[01:10:56] [Server thread/INFO]: <FireGhest> ik meot een nametag pakken
+[01:11:05] [Server thread/INFO]: <StenW> hij wacht wel
+[01:11:08] [Server thread/INFO]: <FireGhest> zit er in je chest wel fire?
+[01:11:15] [Server thread/INFO]: <StenW> ja
+[01:11:30] [Server thread/INFO]: <StenW> bro ik krijg echt n zieke lagspike
+[01:11:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[01:11:34] [Server thread/INFO]: <FireGhest> janee
+[01:11:35] [Server thread/INFO]: <StenW> elke keer als ik de schematic aan zet
+[01:11:37] [Server thread/INFO]: <StenW> lol
+[01:11:38] [Server thread/INFO]: <FireGhest> 60 MSPT
+[01:11:42] [Server thread/INFO]: <FireGhest> OH
+[01:11:43] [Server thread/INFO]: <FireGhest> JA #
+[01:11:45] [Server thread/INFO]: <FireGhest> SAME
+[01:11:45] [Server thread/INFO]: <StenW> O god
+[01:11:58] [Server thread/INFO]: <FireGhest> henk?
+[01:12:03] [Server thread/INFO]: <StenW> ja
+[01:12:05] [Server thread/INFO]: <StenW> tenzei
+[01:12:08] [Server thread/INFO]: <StenW> jij iets beter weet
+[01:12:13] [Server thread/INFO]: <FireGhest> er is al een nametag
+[01:12:14] [Server thread/INFO]: <FireGhest> met
+[01:12:17] [Server thread/INFO]: <FireGhest> spongebob
+[01:12:21] [Server thread/INFO]: <FireGhest> als je die liever
+[01:12:23] [Server thread/INFO]: <FireGhest> wilt
+[01:12:23] [Server thread/INFO]: <StenW> ok lol
+[01:12:39] [Server thread/INFO]: <StenW> lijkt echt op n spongebob ja
+[01:12:43] [Server thread/INFO]: <FireGhest> ja prs
+[01:12:48] [Server thread/INFO]: <FireGhest> hij zit bij de zee
+[01:12:53] [Server thread/INFO]: <StenW> true
+[01:13:11] [Server thread/INFO]: <StenW> bro er zit een
+[01:13:16] [Server thread/INFO]: <StenW> mooshroom
+[01:13:19] [Server thread/INFO]: <StenW> op de
+[01:13:22] [Server thread/INFO]: <StenW> fuckin
+[01:13:27] [Server thread/INFO]: <StenW> shit
+[01:13:34] [Server thread/INFO]: <FireGhest> lol
+[01:13:35] [Server thread/INFO]: <FireGhest> wat
+[01:13:39] [Server thread/INFO]: <StenW> wat een vage avond lmao
+[01:13:51] [Server thread/INFO]: <StenW> heb je echest?
+[01:13:57] [Server thread/INFO]: <StenW> I guess
+[01:14:17] [Server thread/INFO]: <StenW> thn x
+[01:14:21] [Server thread/INFO]: <FireGhest> jup
+[01:24:20] [Server thread/INFO]: <StenW> done
+[01:24:27] [Server thread/INFO]: <FireGhest> gekke shit
+[01:24:31] [Server thread/INFO]: <FireGhest> nu nog de snow
+[01:24:37] [Server thread/INFO]: <StenW> ja kut
+[01:24:41] [Server thread/INFO]: <FireGhest> lol
+[01:24:42] [Server thread/INFO]: <FireGhest> janee
+[01:25:01] [Server thread/INFO]: <StenW> my reaction
+[01:25:11] [Server thread/INFO]: <FireGhest> snap ik
+[01:25:16] [Server thread/INFO]: <StenW> ik ga slapen
+[01:25:19] [Server thread/INFO]: <FireGhest> damn
+[01:25:20] [Server thread/INFO]: <StenW> t is al 1 uur
+[01:25:23] [Server thread/INFO]: <FireGhest> ja
+[01:25:27] [Server thread/INFO]: <FireGhest> en je ben aangeschoten
+[01:25:30] [Server thread/INFO]: <FireGhest> ofzo
+[01:25:33] [Server thread/INFO]: <StenW> ja niet echt meer
+[01:25:36] [Server thread/INFO]: <FireGhest> lol
+[01:25:39] [Server thread/INFO]: <FireGhest> nice
+[01:25:40] [Server thread/INFO]: <FireGhest> okay
+[01:25:47] [Server thread/INFO]: <StenW> ben gewoon moe
+[01:25:50] [Server thread/INFO]: <FireGhest> success
+[01:25:54] [Server thread/INFO]: <StenW> ja
+[01:25:57] [Server thread/INFO]: <StenW> ga ik nodig hebben
+[01:26:01] [Server thread/INFO]: <FireGhest> damn
+[01:26:04] [Server thread/INFO]: <FireGhest> crazy
+[01:26:16] [Server thread/INFO]: <FireGhest> nee ik zie ze
+[01:26:18] [Server thread/INFO]: <FireGhest> als jij
+[01:26:20] [Server thread/INFO]: <StenW> hoe
+[01:26:21] [Server thread/INFO]: <FireGhest> ze vast houd
+[01:26:22] [Server thread/INFO]: <FireGhest> mod
+[01:26:25] [Server thread/INFO]: <StenW> ofc lol
+[01:26:28] [Server thread/INFO]: <FireGhest> ja wat
+[01:26:34] [Server thread/INFO]: <FireGhest> is gwn voor uberhoubt
+[01:26:35] [Server thread/INFO]: <FireGhest> animatie
+[01:27:08] [Server thread/INFO]: <FireGhest> lolll
+[01:27:16] [Server thread/INFO]: <FireGhest> dop
+[01:27:17] [Server thread/INFO]: <FireGhest> e
+[01:27:18] [Server thread/INFO]: <StenW> alsje
+[01:27:20] [Server thread/INFO]: <FireGhest> dankje
+[01:27:20] [Server thread/INFO]: <StenW> success nog
+[01:27:23] [Server thread/INFO]: <StenW> voor vananovnd
+[01:27:24] [Server thread/INFO]: <FireGhest> ja jij ook
+[01:27:27] [Server thread/INFO]: <StenW> vanavond
+[01:27:35] [Server thread/INFO]: <StenW> ja
+[01:27:38] [Server thread/INFO]: <FireGhest> idd
+[01:27:42] [Server thread/INFO]: <StenW> anders run je nu ff de bot
+[01:27:46] [Server thread/INFO]: <StenW> als t niet te veel laggt
+[01:27:50] [Server thread/INFO]: <FireGhest> kijk ik zo wel
+[01:27:53] [Server thread/INFO]: <StenW> isgh
+[01:27:54] [Server thread/INFO]: <StenW> isg
+[01:27:55] [Server thread/INFO]: <FireGhest> of jij doet dat nu
+[01:28:04] [Server thread/INFO]: <StenW> wdym
+[01:28:09] [Server thread/INFO]: <StenW> dat ik hem nu neer zet?
+[01:28:11] [Server thread/INFO]: <FireGhest> ja
+[01:28:12] [Server thread/INFO]: <StenW> isg
+[01:28:17] [Server thread/INFO]: <FireGhest> ik ga mee
+[01:28:21] [Server thread/INFO]: <StenW> ok
+[01:28:36] [Server thread/INFO]: <FireGhest> ik weet niet
+[01:28:39] [Server thread/INFO]: <FireGhest> hoe die aan moet
+[01:28:44] [Server thread/INFO]: <FireGhest> en heb nog niet gekeken
+[01:28:46] [Server thread/INFO]: <StenW> er zit een lever aan de bovenkant
+[01:28:54] [Server thread/INFO]: <FireGhest> uhg, helemaal daarboven
+[01:28:59] [Server thread/INFO]: <StenW> ja idk waarom
+[01:29:02] [Server thread/INFO]: <StenW> ik ga dat nog fixen
+[01:29:06] [Server thread/INFO]: <FireGhest> nie
+[01:29:08] [Server thread/INFO]: <FireGhest> nice
+[01:29:20] [Server thread/INFO]: <FireGhest> damn
+[01:29:23] [Server thread/INFO]: <StenW> negeer de
+[01:29:25] [Server thread/INFO]: <StenW> bonemeal
+[01:29:28] [Server thread/INFO]: <FireGhest> frr
+[01:29:28] [Server thread/INFO]: <StenW> dat gaat ie echt
+[01:29:30] [Server thread/INFO]: <StenW> altijd doen
+[01:29:37] [Server thread/INFO]: <StenW> betekent niet dat ie aan staat btw
+[01:29:41] [Server thread/INFO]: <FireGhest> oh lol
+[01:29:42] [Server thread/INFO]: <FireGhest> zo
+[01:29:43] [Server thread/INFO]: <StenW> er zit gewoon nog shit in de hoppers
+[01:29:56] [Server thread/INFO]: <StenW> hier zo
+[01:29:59] [Server thread/INFO]: <FireGhest> bro
+[01:30:01] [Server thread/INFO]: <StenW> flick m
+[01:30:02] [Server thread/INFO]: <FireGhest> waarom
+[01:30:04] [Server thread/INFO]: <StenW> IDK
+[01:30:06] [Server thread/INFO]: <FireGhest> altijd zo raar
+[01:30:09] [Server thread/INFO]: <FireGhest> die lever plekken
+[01:30:10] [Server thread/INFO]: <StenW> ok nu staat ie aan
+[01:30:14] [Server thread/INFO]: <StenW> ja hahahah
+[01:30:26] [Server thread/INFO]: <FireGhest> waar zet je de player neer?
+[01:30:29] [Server thread/INFO]: <FireGhest> gwn random
+[01:30:36] [Server thread/INFO]: <StenW> ja
+[01:30:53] [Server thread/INFO]: <FireGhest> yo mn frames droppen wel echt
+[01:30:57] [Server thread/INFO]: bonemeal[local] logged in with entity id 286753 at (4982.311873381156, 64.0, 5238.297903121072)
+[01:30:57] [Server thread/INFO]: bonemeal joined the game
+[01:31:02] [Server thread/INFO]: <FireGhest> dope
+[01:31:03] [Server thread/INFO]: <StenW> zo
+[01:31:09] [Server thread/INFO]: <StenW> ik hoop voor je dat de
+[01:31:13] [Server thread/INFO]: <StenW> MSPT nog prima is
+[01:31:17] [Server thread/INFO]: <StenW> bots zijn minder heavy
+[01:31:17] [Server thread/INFO]: <FireGhest> cool
+[01:31:21] [Server thread/INFO]: <StenW> trouwens
+[01:31:25] [Server thread/INFO]: <StenW> als je server uit zet
+[01:31:29] [Server thread/INFO]: <FireGhest> ja
+[01:31:29] [Server thread/INFO]: <StenW> zet eerst de farm uit
+[01:31:31] [Server thread/INFO]: <FireGhest> i know
+[01:31:33] [Server thread/INFO]: <StenW> anders breekt ie
+[01:31:34] [Server thread/INFO]: <FireGhest> daarom ging ik mee
+[01:31:36] [Server thread/INFO]: <StenW> ik mis nog 1 ding
+[01:31:39] [Server thread/INFO]: <StenW> en dat is een
+[01:31:41] [Server thread/INFO]: <StenW> frostwalking
+[01:31:42] [Server thread/INFO]: <StenW> boots
+[01:31:47] [Server thread/INFO]: <FireGhest> ah
+[01:31:50] [Server thread/INFO]: <StenW> als dat er is dan boeit ie niet
+[01:31:54] [Server thread/INFO]: <StenW> of ie nog aan staat of niet
+[01:32:01] [Server thread/INFO]: <FireGhest> oohhh
+[01:32:01] [Server thread/INFO]: <StenW> maar ik kon frostwalking niet vinden
+[01:32:07] [Server thread/INFO]: <FireGhest> ja die shit zag ik
+[01:32:10] [Server thread/INFO]: <FireGhest> hoe dat werkt
+[01:32:11] [Server thread/INFO]: <FireGhest> dope
+[01:32:12] [Server thread/INFO]: <StenW> aangezien je m niet in een enchantment table kan
+[01:32:12] [Server thread/INFO]: <FireGhest> okay
+[01:32:13] [Server thread/INFO]: <StenW> krijgen
+[01:32:16] [Server thread/INFO]: <FireGhest> ja
+[01:32:23] [Server thread/INFO]: <FireGhest> voor morgen
+[01:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[01:32:59] [Server thread/INFO]: <StenW> volgensmij ben ik 40 echests kwijt geraakt
+[01:33:04] [Server thread/INFO]: <FireGhest> wat?
+[01:33:07] [Server thread/INFO]: <StenW> ja idk
+[01:33:17] [Server thread/INFO]: <FireGhest> imean
+[01:33:22] [Server thread/INFO]: <FireGhest> t zijn maar chests
+[01:33:26] [Server thread/INFO]: <StenW> I guess
+[01:33:29] [Server thread/INFO]: <FireGhest> en jij verliest echt alles
+[01:33:32] [Server thread/INFO]: <StenW> ja lol
+[01:33:34] [Server thread/INFO]: <StenW> trouwens
+[01:33:39] [Server thread/INFO]: <StenW> er zijn nog een paar cobbelstones
+[01:33:45] [Server thread/INFO]: <StenW> als je die nog weg kan halen later
+[01:33:47] [Server thread/INFO]: <StenW> zou top zijn
+[01:33:47] [Server thread/INFO]: <FireGhest> ja okay
+[01:33:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:33:52] [Server thread/INFO]: <FireGhest> als ik daar zin in heb
+[01:33:56] [Server thread/INFO]: <FireGhest> anders morgen ofzo
+[01:33:59] [Server thread/INFO]: <StenW> ja lol
+[01:34:03] [Server thread/INFO]: <StenW> helemaal prima
+[01:34:06] [Server thread/INFO]: <StenW> anders doe ik t wel
+[01:34:07] [Server thread/INFO]: <StenW> morgen
+[01:34:19] [Server thread/INFO]: <FireGhest> we zien wel
+[01:34:26] [Server thread/INFO]: <StenW> t fokt alleen n beetje met de output van de farm
+[01:34:34] [Server thread/INFO]: <FireGhest> ja maar
+[01:34:34] [Server thread/INFO]: <StenW> dus is handig als t weg is
+[01:34:35] [Server thread/INFO]: <FireGhest> voor nu
+[01:34:37] [Server thread/INFO]: <FireGhest> niet
+[01:34:41] [Server thread/INFO]: <StenW> nee zeker niet
+[01:36:04] [Server thread/INFO]: <StenW> bro
+[01:36:09] [Server thread/INFO]: <StenW> er vroeg vandaag
+[01:36:11] [Server thread/INFO]: <StenW> een meid
+[01:36:14] [Server thread/INFO]: <FireGhest> oh oh
+[01:36:16] [Server thread/INFO]: <StenW> of ik t nummer wilde van een guy
+[01:36:20] [Server thread/INFO]: <FireGhest> ?!?
+[01:36:23] [Server thread/INFO]: <StenW> een gay guy
+[01:36:26] [Server thread/INFO]: <FireGhest> HAHAHA
+[01:36:31] [Server thread/INFO]: <StenW> ik wist niet eens wie t was
+[01:36:33] [Server thread/INFO]: <StenW> maar ik zei
+[01:36:34] [Server thread/INFO]: <FireGhest> FUNNY SHIT
+[01:36:38] [Server thread/INFO]: <StenW> nee sorry ik ben hetro
+[01:36:47] [Server thread/INFO]: <StenW> echt vage shit
+[01:36:50] [Server thread/INFO]: <FireGhest> lol
+[01:36:57] [Server thread/INFO]: <FireGhest> like
+[01:37:00] [Server thread/INFO]: <FireGhest> waar je net was???
+[01:37:03] [Server thread/INFO]: <StenW> ja
+[01:37:06] [Server thread/INFO]: <FireGhest> lollll
+[01:37:08] [Server thread/INFO]: <StenW> was gwn een cafe
+[01:37:09] [Server thread/INFO]: <FireGhest> kende je haar wel
+[01:37:11] [Server thread/INFO]: <FireGhest> ?
+[01:37:12] [Server thread/INFO]: <StenW> nee lol
+[01:37:21] [Server thread/INFO]: <FireGhest> funn
+[01:37:23] [Server thread/INFO]: <FireGhest> y
+[01:37:25] [Server thread/INFO]: <StenW> nee
+[01:38:18] [Server thread/INFO]: <StenW> wel echt n satisfying farm
+[01:39:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:39:35] [Server thread/INFO]: <StenW> nouja
+[01:39:39] [Server thread/INFO]: <StenW> weltrusten
+[01:39:41] [Server thread/INFO]: <StenW> doei
+[01:39:49] [Server thread/INFO]: <FireGhest> doei
+[01:39:52] [Server thread/INFO]: <FireGhest> welteruttesn
+[01:39:55] [Server thread/INFO]: <StenW> yo
+[01:39:57] [Server thread/INFO]: StenW lost connection: Disconnected
+[01:39:57] [Server thread/INFO]: StenW left the game
+[01:40:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3991ms or 79 ticks behind
+[01:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[01:43:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2639ms or 52 ticks behind
+[01:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2088ms or 41 ticks behind
+[01:46:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:46:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3513ms or 70 ticks behind
+[01:46:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4016ms or 80 ticks behind
+[01:47:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10918ms or 218 ticks behind
+[01:47:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4859ms or 97 ticks behind
+[01:48:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7738ms or 154 ticks behind
+[01:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2434ms or 48 ticks behind
+[01:48:50] [Server thread/INFO]: FireGhest lost connection: Disconnected
+[01:48:50] [Server thread/INFO]: FireGhest left the game
+[01:48:53] [User Authenticator #14/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[01:48:56] [Server thread/INFO]: FireGhest[/127.0.0.1:63252] logged in with entity id 372143 at (4978.6825157864505, 64.0, 5232.41542691225)
+[01:48:56] [Server thread/INFO]: FireGhest joined the game
+[01:49:28] [Server thread/INFO]: FireGhest lost connection: Disconnected
+[01:49:28] [Server thread/INFO]: FireGhest left the game
+[01:51:38] [User Authenticator #15/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[01:51:39] [Server thread/INFO]: FireGhest[/127.0.0.1:63517] logged in with entity id 385308 at (4978.6825157864505, 64.0, 5232.41542691225)
+[01:51:39] [Server thread/INFO]: FireGhest joined the game
+[01:52:31] [Server thread/INFO]: bonemeal lost connection: Killed
+[01:52:31] [Server thread/INFO]: bonemeal left the game
+[01:53:41] [Server thread/INFO]: [FireGhest: Saved the game]
+[01:54:14] [Server thread/INFO]: [FireGhest: Saved the game]
+[01:54:16] [Server thread/INFO]: [FireGhest: Stopping the server]
+[01:54:16] [Server thread/INFO]: Stopping server
+[01:54:16] [Server thread/INFO]: Saving players
+[01:54:16] [Server thread/INFO]: Saving worlds
+[01:54:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:54:17] [C2ME Storage #3/INFO]: Storage thread Thread[#101,C2ME Storage #3,8,main] stopped
+[01:54:17] [C2ME Storage #9/INFO]: Storage thread Thread[#107,C2ME Storage #9,8,main] stopped
